@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Press Start 2P";
+    font-size: 50px;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-left-width: 15px;
+    border-bottom-color: blueviolet;
+    border-left-color: blueviolet;
+    padding: 10px; /* Gap inside the border */
+    margin-bottom: 30px; /* Gap outside the border */
+}
+
+p {
+    background-color: aquamarine;
+    color: black;
+    font-family: "consolas", sans-serif;
+    font-size: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: blueviolet;
+    padding: 5px;
+}
+
+ul{
+    background-color: aliceblue
+    ;
+}
+
+#p1 {
+    color: red;
+}
+
+.box {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 22px;
+    background-color: azure;
+    padding: 10px;
+    float: left; 
+    margin-right: 10px; 
+}
+
+.square1 {
+    border: 1px solid;
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: relative;
+}
+
+.square2 {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute; 
+    top: 920px;px;
+    left: 55px; 
+    margin-top: 20px;
+}
+    /* Any button over which the user's pointer is hovering */
+button:hover {
+    color: rgb(7, 255, 16);
+  }
+  button:active{
+    background-color: green;
+  }
+li:nth-child(2){
+   background-color: rgb(34, 200, 200);
+}
+.box1{
+    width: 225px;
+    height: 225px;
+    background-color: blueviolet;
+    font-size: 180px;
+    text-align: center;
+
+    animation: myslide;
+    animation-duration: 5s;
+}
+
+  @keyframes myslide{
+    from{margin-left: 100% ;}
+    to{margin-left: 0% ;}
+}
